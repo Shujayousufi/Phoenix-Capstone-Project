@@ -83,6 +83,9 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		/*
+		* there is a change in this file.
+		*/
 	}
 	
 }
